@@ -24,7 +24,7 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 
-@Component
+@Component({})
 export default class NavBar extends Vue {
   menu = [
     { name: "Home", active: true },
@@ -33,5 +33,12 @@ export default class NavBar extends Vue {
     { name: "Career", active: false },
     { name: "Blog", active: false }
   ];
+  created() {
+    setTimeout(() => {
+      const element = document.querySelector(".c-navbar") as HTMLCanvasElement;
+      element.style.top = "0px";
+      element.style.opacity = 1;
+    }, 500);
+  }
 }
 </script>

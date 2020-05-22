@@ -1,4 +1,4 @@
-@import './container.scss';
+@import "./container.scss";
 .c-navbar {
   color: #555555;
   width: 100%;
@@ -8,4 +8,7 @@
   display: flex;
   position: fixed;
   justify-content: center;
+  top: rem(-80);
+  opacity: 0;
+  transition: all 0.8s;
 }
