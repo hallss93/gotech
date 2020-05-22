@@ -1,0 +1,14 @@
+.c-dot {
+  background: rgb(99, 98, 215);
+  background: linear-gradient(
+    28deg,
+    rgba(99, 98, 215, 1) 0%,
+    rgba(255, 143, 226, 1) 90%
+  );
+  border-radius: 4px;
+  border: none;
+
+  width: rem(8);
+  height: rem(8);
+  margin-top: rem(10)!important;
+}

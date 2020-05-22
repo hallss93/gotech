@@ -2,5 +2,20 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: rem(10) rem(70);
+  margin: rem(5) rem(70);
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    p {
+      margin: 0;
+      padding: 0;
+
+      &.active {
+        font-weight: bold;
+        color: #6362d7;
+      }
+    }
+  }
 }
