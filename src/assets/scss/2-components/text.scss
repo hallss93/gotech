@@ -1,0 +1,25 @@
+.c-text {
+  font: SemiBold 46px/58px Poppins;
+  margin: 0;
+  padding: 0;
+  
+  &.title {
+    text-align: center;
+    letter-spacing: 0.46px;
+    color: #222222;
+    text-transform: capitalize;
+    font-size: rem(46);
+  }
+  
+  &.subtitle {
+    text-align: center;
+    letter-spacing: 0.46px;
+    color: #222222;
+    text-transform: capitalize;
+    font-size: rem(46);
+    font-weight: 100;
+  }
+  &.capitalize {
+    text-transform: capitalize;
+  }
+}

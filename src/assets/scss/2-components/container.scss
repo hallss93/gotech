@@ -1,10 +1,22 @@
 .c-container {
   width: 100%;
+  margin: 0 auto;
 }
 .c-container-flex {
   display: flex;
+
+  &.wrap {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  &.justify-content-center {
+    justify-content: center;
+  }
+  &.align-items-center {
+    align-items: center;
+  }
 }
-/* @media (min-width: 576px) {
+@media (min-width: 576px) {
   .c-container {
     max-width: 540px;
   }
@@ -24,4 +36,3 @@
     max-width: 1140px;
   }
 }
- */

@@ -37,7 +37,9 @@ export default class NavBar extends Vue {
     setTimeout(() => {
       const element = document.querySelector(".c-navbar") as HTMLCanvasElement;
       element.style.top = "0px";
-      element.style.opacity = 1;
+      setTimeout(() => {
+        element.style.opacity = "1";
+      }, 300);
     }, 500);
   }
 }

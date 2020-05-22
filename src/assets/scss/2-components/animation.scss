@@ -1,0 +1,11 @@
+.c-animation {
+  transition: all 1s;
+
+  &.s2 {
+    transition: all 2s;
+  }
+
+  &.opacity {
+    opacity: 0;
+  }
+}
