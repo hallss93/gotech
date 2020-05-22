@@ -1,0 +1,11 @@
+@import './container.scss';
+.c-navbar {
+  color: #555555;
+  width: 100%;
+  padding: 30px 0px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+}

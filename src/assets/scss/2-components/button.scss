@@ -1,0 +1,25 @@
+.c-button {
+  background: rgb(99, 98, 215);
+  background: linear-gradient(
+    59deg,
+    rgba(99, 98, 215, 1) 0%,
+    rgba(255, 143, 226, 1) 50%
+  );
+  border-radius: 4px;
+  border: none;
+
+  &.main {
+    color: white;
+    min-width: rem(131);
+    height: 100%;
+  }
+  &.icon {
+    position: absolute;
+    top: rem(10);
+    right: rem(5);
+    z-index: 10;
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+}
